@@ -1,0 +1,21 @@
+module Hirb::DynamicView
+  def self.add: (untyped view, untyped options) { (*untyped) -> untyped } -> untyped
+
+  def self.class_to_method: (untyped mod) -> untyped
+
+  def self.generate_single_view_module: (untyped output_mod) { (*untyped) -> untyped } -> untyped
+
+  public
+
+  def add_module: (untyped mod) -> untyped
+
+  def dynamic_options: (untyped obj) -> untyped
+
+  def method_to_class: (untyped meth) -> untyped
+
+  def update_config: (untyped meths) -> untyped
+
+  def view_method_classes: () -> untyped
+
+  def view_methods: () -> untyped
+end

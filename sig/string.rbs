@@ -1,0 +1,11 @@
+module Hirb::String
+  public
+
+  def ljust: (untyped string, untyped desired_length) -> untyped
+
+  def rjust: (untyped string, untyped desired_length) -> untyped
+
+  def size: (untyped string) -> untyped
+
+  def slice: (*untyped args) -> untyped
+end

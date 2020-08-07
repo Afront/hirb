@@ -1,0 +1,67 @@
+module Hirb::View
+  def self.add: (untyped klass, untyped view_config) -> untyped
+
+  def self.capture_and_render: () { (*untyped) -> untyped } -> untyped
+
+  def self.config: () -> untyped
+
+  def self.config_loaded?: () -> untyped
+
+  def self.default_config: () -> untyped
+
+  def self.default_render_method: () -> untyped
+
+  def self.determine_terminal_size: (untyped width, untyped height) -> untyped
+
+  def self.disable: () -> untyped
+
+  def self.disable_output_method: () -> untyped
+
+  def self.enable: (?untyped options) -> untyped
+
+  def self.enable_output_method: () -> untyped
+
+  def self.enabled?: () -> untyped
+
+  def self.formatter: (?untyped reload) -> untyped
+
+  def self.formatter=: (untyped value) -> untyped
+
+  def self.formatter_config: () -> untyped
+
+  def self.height: () -> untyped
+
+  def self.load_config: (?untyped additional_config) -> untyped
+
+  def self.merge_or_load_config: (?untyped additional_config) -> untyped
+
+  def self.page_output: (untyped output, ?untyped inspect_mode) -> untyped
+
+  def self.pager: () -> untyped
+
+  def self.pager=: (untyped value) -> untyped
+
+  def self.render_method: () -> untyped
+
+  def self.render_method=: (untyped) -> untyped
+
+  def self.render_output: (untyped output, ?untyped options) -> untyped
+
+  def self.reset_render_method: () -> untyped
+
+  def self.resize: (?untyped width, ?untyped height) -> untyped
+
+  def self.toggle_formatter: () -> untyped
+
+  def self.toggle_pager: () -> untyped
+
+  def self.view_or_page_output: (untyped str) -> untyped
+
+  def self.view_output: (untyped output, ?untyped options) -> untyped
+
+  def self.width: () -> untyped
+end
+
+Hirb::View::DEFAULT_HEIGHT: Integer
+
+Hirb::View::DEFAULT_WIDTH: Integer

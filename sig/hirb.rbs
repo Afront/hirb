@@ -1,0 +1,23 @@
+module Hirb
+  def self.add_dynamic_view: (untyped view, untyped options) { (*untyped) -> untyped } -> untyped
+
+  def self.add_view: (untyped view, untyped options) -> untyped
+
+  def self.config: (?untyped reload) -> untyped
+
+  def self.config=: (untyped) -> untyped
+
+  def self.config_files: () -> untyped
+
+  def self.config_files=: (untyped) -> untyped
+
+  def self.default_config_files: () -> untyped
+
+  def self.disable: () -> untyped
+
+  def self.enable: (?untyped options) -> untyped
+
+  def self.read_config_file: (?untyped file) -> untyped
+end
+
+Hirb::VERSION: String

@@ -1,0 +1,39 @@
+class Hirb::Formatter
+  def self.dynamic_config: () -> untyped
+
+  def self.dynamic_config=: (untyped) -> untyped
+
+  def self.to_a_classes: () -> untyped
+
+  def self.to_a_classes=: (untyped) -> untyped
+
+  public
+
+  def _format_output: (untyped output, untyped options) { (*untyped) -> untyped } -> untyped
+
+  def add_klass_config_if_true: (untyped hash, untyped klass) -> untyped
+
+  def add_view: (untyped klass, untyped view_config) -> untyped
+
+  def build_klass_config: (untyped output_class) -> untyped
+
+  def call_output_method: (untyped output_method, untyped output) -> untyped
+
+  def config: () -> untyped
+
+  def determine_output_class: (untyped output) -> untyped
+
+  def format_output: (untyped output, ?untyped options) { (*untyped) -> untyped } -> untyped
+
+  def klass_config: (untyped output_class) -> untyped
+
+  def parse_console_options: (untyped options) -> untyped
+
+  def reset_klass_config: () -> untyped
+
+  def to_a_classes: () -> untyped
+
+  private
+
+  def initialize: (?untyped additional_config) -> untyped
+end

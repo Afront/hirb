@@ -1,0 +1,13 @@
+module Hirb::Console
+  def self.format_output: (untyped output, ?untyped options) { (*untyped) -> untyped } -> untyped
+
+  def self.render_output: (untyped output, ?untyped options) -> untyped
+
+  public
+
+  def menu: (untyped output, ?untyped options) { (*untyped) -> untyped } -> untyped
+
+  def table: (untyped output, ?untyped options) -> untyped
+
+  def view: (untyped output, ?untyped options) -> untyped
+end

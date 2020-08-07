@@ -1,0 +1,3 @@
+module Hirb::Helpers
+  def self.helper_class: (untyped klass) -> untyped
+end

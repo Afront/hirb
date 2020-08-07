@@ -1,0 +1,19 @@
+module Hirb::Util
+  public
+
+  def any_const_get: (untyped name) -> untyped
+
+  def camelize: (untyped string) -> untyped
+
+  def capture_stdout: () { (*untyped) -> untyped } -> untyped
+
+  def choose_from_array: (untyped array, untyped input, ?untyped options) -> untyped
+
+  def command_exists?: (untyped command) -> untyped
+
+  def detect_terminal_size: () -> untyped
+
+  def find_home: () -> untyped
+
+  def recursive_hash_merge: (untyped hash1, untyped hash2) -> untyped
+end

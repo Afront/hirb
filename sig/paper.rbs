@@ -1,0 +1,29 @@
+class Hirb::Pager
+  def self.command_pager: (untyped output, ?untyped options) -> untyped
+
+  def self.default_pager: (untyped output, ?untyped options) -> untyped
+
+  def self.pager_command: (*untyped commands) -> untyped
+
+  def self.valid_pager_command?: (untyped cmd) -> untyped
+
+  public
+
+  def activated_by?: (untyped string_to_page, ?untyped inspect_mode) -> untyped
+
+  def char_count: (untyped string) -> untyped
+
+  def height: () -> untyped
+
+  def page: (untyped string, untyped inspect_mode) -> untyped
+
+  def resize: (untyped width, untyped height) -> untyped
+
+  def slice!: (untyped output, ?untyped inspect_mode) -> untyped
+
+  def width: () -> untyped
+
+  private
+
+  def initialize: (untyped width, untyped height, ?untyped options) -> untyped
+end

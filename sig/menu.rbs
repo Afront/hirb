@@ -1,0 +1,61 @@
+class Hirb::Menu
+  def self.render: (untyped output, ?untyped options) { (*untyped) -> untyped } -> untyped
+
+  public
+
+  def action_object: () -> untyped
+
+  def add_chosen_to_args: (untyped items) -> untyped
+
+  def choose_from_menu: () -> untyped
+
+  def cleanup_new_args: () -> untyped
+
+  def command: () -> untyped
+
+  def default_field: () -> untyped
+
+  def execute_action: (untyped chosen) -> untyped
+
+  def fields: () -> untyped
+
+  def get_input: () -> untyped
+
+  def get_readline_input: (untyped prompt) -> untyped
+
+  def input_to_tokens: (untyped input) -> untyped
+
+  def invoke: (untyped cmd, untyped args) -> untyped
+
+  def map_tokens: (untyped tokens) -> untyped
+
+  def parse_input: (untyped input) -> untyped
+
+  def parse_word: (untyped word) -> untyped
+
+  def pre_prompt: () -> untyped
+
+  def readline_loads?: () -> untyped
+
+  def render: (untyped output) { (*untyped) -> untyped } -> untyped
+
+  def return_cell_values?: () -> untyped
+
+  def split_input_args: (untyped input) -> untyped
+
+  def table_helper_class?: () -> untyped
+
+  def unalias_field: (untyped field) -> untyped
+
+  def unasked_choice: () -> untyped
+
+  private
+
+  def initialize: (?untyped options) -> untyped
+end
+
+Hirb::Menu::CHOSEN_ARG: String
+
+Hirb::Menu::CHOSEN_REGEXP: Regexp
+
+Hirb::Menu::DIRECTIONS: String
